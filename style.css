@@ -1,0 +1,87 @@
+
+header h1 {
+  margin-bottom: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/*container*/
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+  padding:0 20px ;
+}
+/* Sections */
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+section h2 {
+  color: #2b2d42;
+  margin-bottom: 20px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+/* Forms and Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Body background */
+body {
+  background: #f4f4f9; /* Light gray for the full page background */
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+button {
+  background: #2b2d42;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #4a4e69;
+}
+/* Footer */
+footer {
+  background: #2b2d42;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+/* Quiz Styles */
+#quiz p {
+  font-weight: bold;
+}
+/* Responsive iframe and video */
+iframe, video {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+/* Notepad textarea */
+#notepad textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+/* PayPal Button */
+#paypal-button-container {
+  margin-top: 20px;
+}
